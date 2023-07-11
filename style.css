@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*HEADER - NAVIGATION*/
+header {
+  background-color: rgb(210, 170, 23);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/*ARTICLE*/
+.article {
+  padding: 2rem 0 0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.article h1 {
+  padding: 1rem 0rem;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+/*IMAGES*/
+.images-section {
+  margin: 2rem 0;
+}
+
+/*main image*/
+.img-section-main {
+  width: 50%;
+  margin: 0 auto;
+  flex: 1 1 0;
+}
+
+.img-item-main img,
+.img-item img {
+  transition: all 0.3s linear;
+}
+
+.img-item-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  padding-bottom: 20px;
+}
+
+/*two images*/
+.img-section-images {
+  display: flex;
+  gap: 20px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.img-section-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-item {
+  flex: 1 1 0;
+}
+
+/*FORM SECTION*/
+.form-section {
+  background-color: rgb(243, 221, 143);
+  padding: 3rem;
+}
+
+.form-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-text {
+  width: 30%;
+}
+.form-text h2 {
+  margin-bottom: 1rem;
+}
+
+/* FORM */
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+
+  text-align: center;
+}
+
+.form-button {
+  background-color: rgb(210, 170, 23);
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.valid,
+.invalid {
+  margin: 0 auto;
+  font-size: 13px;
+}
+.valid {
+  color: rgb(210, 170, 23);
+}
+
+.invalid {
+  color: red;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: rgb(210, 170, 23);
+  padding: 2rem 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+/* SCROLL TO TOP BUTTON */
+#goToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 5px;
+  border: none;
+  background-color: rgb(181, 141, 30);
+  cursor: pointer;
+  border-radius: 250%;
+  height: 40px;
+  width: 40px;
+}
+
+button i {
+  font-size: 25px;
+}
+
+/* DARK MODE BUTTON */
+.dark-mode {
+  transition: 0.5s;
+  filter: brightness(0.8);
+  background-color: rgb(128 128 128 / 30%);
+}
+
+.modes-btn {
+  position: absolute;
+  background-color: rgb(181, 141, 30);
+  top: 1rem;
+  left: 1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}

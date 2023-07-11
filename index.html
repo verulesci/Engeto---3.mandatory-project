@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link href="media_query.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/65a0294804.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Projekt 3</title>
+  </head>
+  <body>
+    <!-- HEADER - NAVIGATION -->
+    <header>
+      <nav class="nav-bar">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#">Domů</a></li>
+          <li class="nav-item"><a href="#">O nás</a></li>
+          <li class="nav-item"><a href="#">Kontakt</a></li>
+        </ul>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars" style="color: #000000"></i>
+          <!-- <i class="fa-solid fa-xmark" style="color: #000000"></i> -->
+        </div>
+      </nav>
+    </header>
+
+    <!-- ARTICLE -->
+    <section class="article">
+      <div class="button-modes">
+        <h1>HAns & VEru HAVE a VAN</h1>
+      </div>
+
+      <div>
+        <p>
+          <h2>Jak tento nápad vlastně vznikl?</h2>          
+          Zprvu tím, že by se nám hodilo auto na výletování. Chtěli jsme nějaké vetší abychom v něm mohli občas i
+          přespávat a tak jsme sedli k internetu a hledali. Na několik aut jsme se
+          byli podívat, jenže vždy se nám něco nezdálo nebo se tam objevil
+          háček... Až jednou Honza došel domů s novinkou, že auto akorát koupil. A tak jsme si jeli do Prahy pro krásnou červenou Škodu Fabii.
+          <h2> Máme malé auto.</h2>
+          A co s ním? V plánu bylo ho hned prodat a brát to jako zkoušku z akuce a investice. Jenže jsme si na něj velmi rychle zvykli a začali ho často používat. Na spaní ale bylo moc malé a tak jsme zase začali přemýšlet co a jak.. Až jsme jeden večer začali mluvit o dodávce a že to byl vždy nás obou sen. 
+          <h2>Chceme dodávku?</h2>
+          Od té chvíle jsme každý večer přemýšleli, debatovali, dívali se na videa ostatních cestovatelů v dodávce a rozhodovali se jestli ten krok uděláme. 
+          <h2>Chceme a sháníme.</h2>
+          Verdikt padl jasný - jdem do toho a bude sranda! Tu větu ostatně používáme často a je to pravda. Sranda totiž započla! Objíždeli jsme inzeráty dodávek po Praze a bylo to podobné jako u shánění osobáku. Dlouho jsme nemohli najít dodávku, kde by nebyl nějaký háček, shnilé části nebo by se cena vlezla do našeho rozpočtu. Dost jsme si přáli najít krásnou dodávku do limitu a blíže k Brnu, protože cestování do Prahy nás už nebavilo. A naše přání bylo vyslyšeno! Jeli jsme se podívat na žlutého VolksWagen Craftra do Olomouce co podle inzerátu splňoval naše požadavky. Na živo to bylo ještě lepší!
+          <h2>Jedeme domů naší dodávkou!</h2>
+          Druhý den po prohlídce nám automechaik sdělil, že je dodávka po technické stránce v pořádku a my si tedy plácli s prodávajícím bazarem, podepsali smlouvy a jeli domů už naší novou dodávkou. Mimochodem první tankování bylo přesně za 1.111,11 Kč. Náhoda? 
+          <h2>Náš vanlife plán</h2>        
+          Teď už máme jen dva kroky, z toho jeden už máme hotový - koupit dodávku a přestavět ji na obytnou.. Takže máme z poloviny hotovo :)
+        </p>
+      </div>
+    </section>
+
+    <!-- IMAGES -->
+    <section class="images-section">
+      <div class="img-section-main">
+        <div class="img-item-main">
+          <img src="images/image1.jpg" />
+        </div>
+      </div>
+      <div class="img-section-images">
+        <div class="img-item"><img src="images/image2.jpg" /></div>
+        <div class="img-item"><img src="images/image3.jpg" /></div>
+      </div>
+    </section>
+
+    <!-- FORM -->
+    <section class="form-section">
+      <div class="form-container">
+        <div class="form-text">
+          <h2>Chcete odebírat náš newsletter?</h2>
+          <p>Pro registraci zadejte prosím svoji emailovou adresu</p>
+        </div>
+
+        <form class="form-box">
+          <input type="email" class="email1 email-input" placeholder="email" />
+          <input type="email" class="email2 email-input" placeholder="email" />
+          <p class="result-text"></p>
+          <input type="submit" class="form-button" />
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        Můžete nás sledovat na
+        <a href="https://www.instagram.com/ha.ve.van/" target="_blank"
+          >Instagramu</a
+        >
+      </div>
+    </footer>
+
+    <!-- BUTTONS -->
+    <div>
+      <button onclick="darkModeFunction()" class="modes-btn dark-mode">
+        Dark/light mode
+      </button>
+    </div>
+
+    <button onclick="topFunction()" id="goToTopBtn">
+      <i class="fa-solid fa-arrow-up" style="color: #000000"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
